@@ -27,7 +27,8 @@ const userSchema = new mongoose.Schema({
     },
     avatar: {
         type: String, //cloudinary url
-        default: ""
+        // default: "",
+        required: true,
     },
     bio: {
         type: String,
